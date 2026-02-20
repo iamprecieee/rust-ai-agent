@@ -2,13 +2,16 @@
 name = "simple-rust-agent"
 version = "0.1.0"
 edition = "2024"
-description = "A simple ai agent built on rust with rig and qdrant."
+description = "A simple AI agent built in Rust using the rig library."
 authors = ["iamprecieee <emmypresh777@gmail.com>"]
 license = "MIT"
 
 [dependencies]
 anyhow = "1.0.102"
+colorized = "1.0.0"
 dotenvy = "0.15.7"
+futures = "0.3.32"
+rig-core = "0.31.0"
 tokio = { version = "1.49.0", features = ["full"] }
 tracing = "0.1.44"
 tracing-appender = "0.2.4"
